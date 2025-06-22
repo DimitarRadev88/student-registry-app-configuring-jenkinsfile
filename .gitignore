@@ -1,0 +1,49 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.pnpm-store/
+.npm/
+
+# development
+.env
+.env.local
+.env.*.local
+
+# production
+build/
+dist/
+out/
+tmp/
+
+# coverage (testing)
+coverage/
+
+# misc
+.DS_Store
+Thumbs.db
+npm-debug.log
+yarn-error.log
+.idea/
+.vscode/
+
+# Editor files (e.g., Vim swap files)
+*.swp
+*.swo
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Optional: if you're using TypeScript, you might also want to ignore:
+*.tsbuildinfo
+
+# Optional: if you're using a specific framework, add its specific ignore patterns
+# e.g., Next.js
+.next/
