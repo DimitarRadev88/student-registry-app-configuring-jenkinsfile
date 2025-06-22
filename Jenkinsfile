@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout code') {
             steps {
-                checkout scm 'https://github.com/DimitarRadev88/student-registry-app-configuring-jenkinsfile'
+                checkout scm @'https://github.com/DimitarRadev88/student-registry-app-configuring-jenkinsfile'
             }
         }
 
